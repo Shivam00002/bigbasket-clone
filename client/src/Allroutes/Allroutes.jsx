@@ -40,10 +40,15 @@ const Allroutes = () => {
     
 
     <Route path='/userregister' element={<UserRegister />}></Route>
-    <Route path='/userlogin' element={<UserLogin />}></Route>
+    <Route path='/userlogin'
+ element={<UserLogin />}></Route>
     <Route path='/forgotpass' element={<ForgotPassword />}></Route>
-    <Route path='/resetpass' element={<Resetpassword />}></Route>
-    <Route path='/product' element={<Product />}></Route>
+    <Route path='/resetpass'
+ element={<Resetpassword />}></Route>
+    <Route path='/product'
+
+
+ element={<Product />}></Route>
 
    </Routes>
    
