@@ -24,6 +24,8 @@ const Sidebar = () => {
         <div>
           <input type="checkbox" value="motivation" />
           <label>Anchor by Panasonic</label>
+
+
         </div>
 
         <div>
