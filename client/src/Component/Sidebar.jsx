@@ -16,6 +16,9 @@ const Sidebar = () => {
 
       <hr />
 
+
+
+
       <Box className={styles.filter_box} textAlign={"left"} alignItems={"left"}>
         <div>
           <input type="checkbox" value="science_friction" />
