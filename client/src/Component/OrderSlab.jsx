@@ -13,7 +13,9 @@ const OrderSlab = (props) => {
                 return (
                     <Flex justifyContent='space-between' alignItems="center">
                         <Flex justifyContent="start" gap="30px" alignItems="center">
-                            <Image src={el.images} alt="NONE" height="120px" />
+        
+
+                    <Image src={el.images} alt="NONE" height="120px" />
                             <VStack alignItems="start">
                                 <Text fontSize="sm" textAlign="left" fontWeight={"bold"}>{el.brand} {el.name}</Text>
                                 <Text fontSize="sm" textAlign="left" >Qty : {el.productCount}</Text>
