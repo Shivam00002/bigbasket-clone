@@ -15,6 +15,8 @@ const UserSchema=mongoose.Schema({
         required:[true, "please provide a unique email"],
         unique:true
     },
+
+
    
     mobile:{
         type:Number,
