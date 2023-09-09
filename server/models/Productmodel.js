@@ -17,6 +17,7 @@ const productSchema = mongoose.Schema({
 });
 
 
+
 //Product Constructor Function
 const ProductModel = mongoose.model('product',productSchema);
 
