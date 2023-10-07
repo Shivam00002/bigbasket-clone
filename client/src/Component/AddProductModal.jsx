@@ -30,6 +30,8 @@ const AddProductModal = () => {
    
 
 
+
+
     const { isOpen, onOpen, onClose } = useDisclosure();
     const [Category,setCategory] = useState('');
     const categoryRef = useRef(null);
