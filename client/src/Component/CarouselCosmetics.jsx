@@ -71,6 +71,7 @@ export default function CarouselCosmetics() {
       });
   }, []);
 
+
   return (
     <Box
       //  border={"2px solid red"}
