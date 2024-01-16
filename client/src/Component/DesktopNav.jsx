@@ -3,9 +3,6 @@ import { DesktopSubNav } from "./DesktopSubNav";
 import { NAV_ITEMS } from "./MobileNavItem";
 import { CiSearch } from "react-icons/ci";
 
-
-
-
 const DesktopNav = () => {
 
   return (
