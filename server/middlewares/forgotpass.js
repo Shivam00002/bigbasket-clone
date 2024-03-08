@@ -4,6 +4,7 @@ const { UserModel } = require("../models/Usermodel")
 const putemailinbodybeforeupdatepass=async(req,res,next)=>{
             const {email}=req.body
     
+
             const user=await UserModel.find({email:email})
         
             if(user.length>0){
