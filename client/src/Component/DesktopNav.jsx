@@ -17,6 +17,7 @@ const DesktopNav = () => {
       </InputGroup>
 
       {/* Search bar */}
+
     </Flex>
   )
 };
