@@ -18,6 +18,7 @@ const DesktopNav = () => {
 
       {/* Search bar */}
 
+
     </Flex>
   )
 };
