@@ -22,7 +22,8 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
           </Box>
           <Flex
             transition={'all .3s ease'}
-           
+   
+        
  transform={'translateX(-10px)'}
             opacity={0}
             _groupHover={{ opacity: '100%', transform: 'translateX(0)' }}
