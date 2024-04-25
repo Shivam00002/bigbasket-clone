@@ -11,7 +11,8 @@ const Homepage = () => {
       <MyCarousel />
       <SimpleGrid columns={[2,4,4,6]} w={"70%"} m="auto" gap={"10px"} mt="2rem">
         <Image border={"1px solid lightgrey"} onClick={()=>naivigate("/product")} src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250123_01.png" alt="title"/>
-        <Image border={"1px solid lightgrey"} onClick={()=>naivigate("/product")} src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250123_02.png" alt="title"/>
+        <Image border={"1px solid lightgrey"} onClick={()=>naivigate("/product")}
+ src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250123_02.png" alt="title"/>
         <Image border={"1px solid lightgrey"} onClick={()=>naivigate("/product")} src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250123_03.png" alt="title"/>
         <Image border={"1px solid lightgrey"} onClick={()=>naivigate("/product")} src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250123_04.png" alt="title"/>
         <Image border={"1px solid lightgrey"} onClick={()=>naivigate("/product")} src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250123_05.png" alt="title"/>
