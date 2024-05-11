@@ -7,6 +7,7 @@ const putemailinbodybeforeupdatepass=async(req,res,next)=>{
 
             const user=await UserModel.find({email:email})
         
+
             if(user.length>0){
             
                 req.body.useremail=user[0].email 
