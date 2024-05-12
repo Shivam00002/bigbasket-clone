@@ -28,8 +28,6 @@ const AddProductModal = () => {
     const {state,dispatch}=useContext(AuthContext)
     const toast = useToast()
    
-
-
     const { isOpen, onOpen, onClose } = useDisclosure();
     const [Category,setCategory] = useState('');
     const categoryRef = useRef(null);
