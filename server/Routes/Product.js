@@ -20,6 +20,7 @@ productRouter.get('/',async (req,res)=>{
         const data = await ProductModel.find(query).sort({[sort] : order==='ASC'?1:-1});
         res.send(data);
     }
+
     catch(err)
     {
         res.send({message : "Something Went Wrong", error : err.message});
