@@ -31,6 +31,7 @@ import {
 
 
 
+
 // Settings for the slider
 const settings = {
   dots: true,
