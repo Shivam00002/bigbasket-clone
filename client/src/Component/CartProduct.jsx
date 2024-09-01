@@ -22,7 +22,6 @@ const CartProduct = (props) => {
     }
 
 
-
   return (
     <Flex justifyContent='space-between' alignItems="center">
         <Flex justifyContent="start" gap="30px" alignItems="center">
