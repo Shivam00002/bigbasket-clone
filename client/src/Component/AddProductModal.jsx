@@ -72,6 +72,7 @@ const AddProductModal = () => {
         else
             priceRef.current.style.border="1px solid green";
         if(!Discount)
+
             discountRef.current.style.border="1px solid red";
         else
             discountRef.current.style.border="1px solid green";
