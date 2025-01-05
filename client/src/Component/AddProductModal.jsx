@@ -53,6 +53,7 @@ const AddProductModal = () => {
     const [loading,setLoading] = useState(false);
 
 
+
     const addNewProduct = useCallback(async () => {
         if(!Name)
             nameRef.current.style.border = "1px solid red";
