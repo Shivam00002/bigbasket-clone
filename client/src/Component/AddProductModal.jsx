@@ -125,7 +125,6 @@ const AddProductModal = () => {
         }
     },[Brand,Category,Discount,Name,Ratings,Reviews,Price,Description,Available,Images,onClose])
 
-
     const resetForm = ()=>{
         setCategory('');
         setBrand('');
